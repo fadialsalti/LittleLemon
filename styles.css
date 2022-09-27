@@ -1,3 +1,7 @@
+* {
+    font-family: "Karma", sans-serif;
+}
+
 body {
     background-color: #EDEFEE;
     font-family: 'Markazi Text', serif;
@@ -44,4 +48,47 @@ footer {
 
 footer div {
     flex: 1;
+}
+
+li a {
+    padding: 0.25em 1em;
+    text-decoration: none; /* no underline */
+    background-color: #EBF5FF; /* pale bluish white */
+    color: #6f981d; /* dark blue */
+    border: 2px solid black;
+    border-top-left-radius: 1em 1em; /* rounded corner! */
+    border-top-right-radius: 1em 1em; /* another rounded corner! */
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+  }
+
+.active {
+    background-color: #04AA6D;
+  }
+
+.badge {
+    background-color: yellowgreen;
+    border-radius: 30%;
+    padding: 0.3em 0.3em;
+    position: relative;
+  }
+
+.food {
+    border: 1px solid rgb(60, 138, 32);
+    border-radius: 4px;
+    padding: 5px;
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+hr.style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
 }
